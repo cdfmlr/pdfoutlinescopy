@@ -1,0 +1,15 @@
+PdfOutlinesCopy
+===============
+
+Copy outlines from one pdf (src) to another pdf (dst).
+
+Usage: pdfoutlinescopy <src> <dst> [offset]
+
+   src str: source pdf file;
+   dst str: destination pdf file;
+offset int: offset (+/-) for page number in dst, default is 0.
+
+Based on https://github.com/pikepdf/pikepdf (licensed under the MPL 2.0).
+
+Copyright 2022 CDFMLR, MIT licensed.
+
